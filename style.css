@@ -1,0 +1,32 @@
+/* Resets */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "PP Formula Condensed";
+  src: url(./assets/fonts/PPFormula-CondensedBlack.otf);
+}
+
+/* Variables */
+:root {
+  --primary-bg: #2d2d2d;
+  --primary: #ffffff;
+}
+
+/* Base Styles */
+
+/* Mobile Styles */
